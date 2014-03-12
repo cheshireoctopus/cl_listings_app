@@ -1,0 +1,24 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: cl_listings_app_development
+  pool: 5
+  username: Chandler
+  password:
+
+# test:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: cl_listings_app_test
+#   pool: 5
+#   username: cl_listings_app
+#   password:
+
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: cl_listings_app_production
+#   pool: 5
+#   username: cl_listings_app
+#   password:
