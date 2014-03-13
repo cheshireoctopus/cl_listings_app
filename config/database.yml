@@ -15,10 +15,10 @@ development:
 #   username: cl_listings_app
 #   password:
 
-# production:
-#   adapter: postgresql
-#   encoding: unicode
-#   database: cl_listings_app_production
-#   pool: 5
-#   username: cl_listings_app
-#   password:
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: cl_listings_app_production
+  pool: 5
+  username: cl_listings_app
+  password:
