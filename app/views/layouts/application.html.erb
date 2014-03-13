@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ClListingsApp</title>
+  <title>CL Web Listings</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<h1>craigslist(1..10)</h1>
+<p>Quickly navigate the first 10 <strong>web/HTML/info design</strong> jobs from select cities</p>
+<nav>
+  <%= link_to "Austin", "/austin" %> /
+  <%= link_to "Boston", "/boston" %> /
+  <%= link_to "Los Angeles", "/losangeles" %> /
+  <%= link_to "New York City", "/newyorkcity" %>
+</nav>
 
 <%= yield %>
 
